@@ -2,7 +2,7 @@ import Card from './cards';
 
 export default () => {
   window.onload = () => {
-    const nombres: string[] = ['avatar','avatar','avatar','avatar','avatar','avatar'];
+    const nombres: string[] = ['claudia','emilia','franco','gabriela','juan','laura','solana'];
     const investigadores: Card[] = nombres.map((n)=> new Card(n));
 
     let container = document.getElementsByClassName('has-cards')[0];

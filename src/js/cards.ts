@@ -5,7 +5,6 @@ export default class Card {
 
   description: string;
   photoUrl: string;
-  content: string;
 
   constructor(name: string) {
     this.description = users[name].description;
@@ -14,7 +13,7 @@ export default class Card {
 
   render() {
     return `<div class="column">
-                    <div class="card animated fadeIn">
+                    <div class="card" data-aos="fade-up">
                     <div class="card-image">
                     <figure class="image is-4by3">
                     <img src=${this.photoUrl} alt="avatar">
