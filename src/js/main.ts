@@ -5,7 +5,7 @@ export default () => {
     const nombres: string[] = ['avatar','avatar','avatar','avatar','avatar','avatar'];
     const investigadores: Card[] = nombres.map((n)=> new Card(n));
 
-    let container = document.getElementsByClassName('columns')[0];
+    let container = document.getElementsByClassName('has-cards')[0];
     investigadores.map((n) => {
       container.innerHTML += n.render();
     });

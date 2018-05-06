@@ -14,7 +14,7 @@ export default class Card {
 
   render() {
     return `<div class="column">
-                    <div class="card">
+                    <div class="card animated fadeIn">
                     <div class="card-image">
                     <figure class="image is-4by3">
                     <img src=${this.photoUrl} alt="avatar">
@@ -26,5 +26,4 @@ export default class Card {
                     </div>
                     </div>`
   };
-  
 }
