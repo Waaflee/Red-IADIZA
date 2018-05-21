@@ -9,4 +9,4 @@ sed -i -e s:=\"\/:=\".\/:g index.html
 sed -i -e s:=\"\/:=\".\/:g *.js
 cd ..
 git add -A
-git commit -a -m'Processed buidl for github pages publishing'
+git commit -a -m'Processed build for github pages publishing'
