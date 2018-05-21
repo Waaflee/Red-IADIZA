@@ -1,5 +1,5 @@
-import 'animate.css';
-import './css/main.scss';
+// import 'animate.css';
+// import './css/main.scss';
 import main from './js/main';
 // import Glide from '@glidejs/glide';
 import 'aos/dist/aos.css';

@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>Red IADIZA</title>
+  <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
   <link rel="stylesheet" href="../node_modules/bulmaswatch/materia/bulmaswatch.min.css">
+  <link rel="stylesheet" href="./css/main.scss">
 </head>
 
 <body>
-  <section class="hero is-large is-primary ">
+  <!-- <section class="hero is-large is-primary ">
     <figure class="image is-16by9">
       <img style="filter: grayscale(60%) brightness(65%);" src="./assets/images/imagen.jpg" alt="foto">
       <div class="hero-header">
@@ -27,7 +29,21 @@
       <div class="hero-footer">
       </div>
     </figure>
-  </section>
+  </section> -->
+  <div class="banner" style="width: 100%;height: 100%;background-color: #29b6f6;color:white">
+    <img style="height:100%; width: 100%;filter: grayscale(60%) brightness(65%);" src="./assets/images/imagen.jpg" alt="foto">
+    <div class="container" style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);">
+      <h1 class="title is-size-1 is-size-3-mobile animated slideInRight" style="color:white;">
+      Red de investigaciones
+    </h1>
+      <h2 class="subtitle is-size-3 is-size-5-mobile animated slideInLeft" style="color:white;">
+      En paisajes socio-ecológicos de tierras secas
+    </h2>
+    </div>
+
+  </div>
+
+  <br><br><br>
 
   <section class="section">
     <div class="card" data-aos="fade-left">
@@ -61,25 +77,26 @@
   <section class="section">
     <div class="tile is-ancestor is-vertical">
       <div class="tile is-parent">
-        <div class="tile notification is-child is-primary" data-aos="flip-up">
+        <div class="tile notification is-child is-primary has-text-centered" data-aos="flip-up">
           <p class="subtitle">
-            El rol de las actividades antrópicas los disturbios antrópicos en la transformación del paisaje y la biodiversidad.
+            El rol de las actividades antrópicas en la transformación del paisaje y la biodiversidad.
           </p>
         </div>
       </div>
       <div class="tile">
 
         <div class="tile is-parent">
-          <div class="tile is-child notification is-info" data-aos="flip-left">
+          <div class="tile is-child notification is-info has-text-centered" data-aos="flip-left">
             <p class="subtitle">
-              Reproducción social y uso del territorio y los bienes naturales en territorios rurales y de interfase urbano-rural.
+              Los procesos de conectividad y flujo de organismos entre áreas bajo diferentes formas de manejo.
             </p>
           </div>
         </div>
         <div class="tile is-parent">
-          <div class="tile notification is-child is-warning" data-aos="flip-right">
+          <div class="tile notification is-child is-warning has-text-centered" data-aos="flip-right">
             <p class="subtitle">
-              Los procesos de conectividad y flujo de organismos entre áreas bajo diferentes formas de manejo protegidas y no protegidas.
+              Gestión y protección de bosques nativos y de áreas protegidas.
+
             </p>
           </div>
         </div>
@@ -87,7 +104,7 @@
 
       <div class="tile">
         <div class="tile is-parent">
-          <div class="tile is-child notification is-dark" data-aos="flip-down">
+          <div class="tile is-child notification is-dark has-text-centered" data-aos="flip-down">
             <p class="subtitle">
               Gestión y protección de bosques nativos y de áreas protegidas.
             </p>
@@ -95,16 +112,17 @@
 
         </div>
         <div class="tile is-parent">
-          <div class="tile is-child notification is-link" data-aos="fade-left">
+          <div class="tile is-child notification is-link has-text-centered" data-aos="fade-left">
             <p class="subtitle">
-              Intersecciones bio y socio-diversidad.
+              Paisajes culturales, patrimonio y procesos de patrimonialización turística.
+
             </p>
           </div>
         </div>
       </div>
 
       <div class="tile is-parent">
-        <div class="tile notification is-child is-success" data-aos="flip-right">
+        <div class="tile notification is-child is-success has-text-centered" data-aos="flip-right">
           <p class="subtitle">
             Territorio(s), Paisaje(s) y Poder en Tierras Secas del Oeste Argentino. Estudios del paisaje como imagen de procesos de transformación territorial mediados por el poder.
           </p>
@@ -113,17 +131,26 @@
 
       <div class="tile">
         <div class="tile is-parent">
-          <div class="tile notification is-child is-danger" data-aos="zoom-in-right">
+          <div class="tile notification is-child is-danger has-text-centered" data-aos="zoom-in-right">
             <p class="subtitle">
-              Paisajes culturales, patrimonio y procesos de patrimonialización turística.
+              Reproducción social y uso del territorio y los bienes naturales en territorios rurales y de interfase urbano-rural.
             </p>
           </div>
         </div>
 
         <div class="tile is-parent">
-          <div class="tile notification is-child is-black" data-aos="zoom-in-left">
+          <div class="tile notification is-child is-black has-text-centered" data-aos="zoom-in-left">
             <p class="subtitle">
-              Relaciones entre diversidad biológica y cultural en las tierras secas
+              Intersecciones bio y socio-diversidad.
+
+            </p>
+          </div>
+        </div>
+
+        <div class="tile is-parent">
+          <div class="tile notification is-child is-info has-text-centered" data-aos="zoom-in-left">
+            <p class="subtitle">
+              Relaciones entre diversidad biológica y cultural en las tierras secas.
             </p>
           </div>
         </div>
@@ -140,68 +167,47 @@
   </section>
 
   <section class="section">
-    <div class="tile is-ancestor is-vertical box">
+    <div class="tile is-ancestor is-vertical">
 
       <div class="tile">
 
-
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="http://www.unt.edu.ar/">
-                <figure class="image is-96x96">
-                  <img src="http://grupomontevideo.org/escala/images/Logos/unt.png" alt="UNT">
-                </figure>
-              </a>
-            </div>
+          <div class="tile notification is-child has-text-centered is-primary">
+            <a href="http://www.unt.edu.ar/">
+              <div class="content">
+                Universidad Nacional de Tucumán
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="http://www.unsj.edu.ar/">
-                <figure class="image is-96x96">
-                  <img src="https://www.universidades.com.ar/logos/original/logo-universidad-nacional-de-san-juan.png" alt="UNSJ">
-                </figure>
-              </a>
-            </div>
+          <div class="tile is-child notification has-text-centered is-link">
+            <a href="http://www.unsj.edu.ar/">
+              <div class="content">
+                Universidad Nacional de San Juan
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="https://www.unlar.edu.ar/">
-                <figure class="image is-96x96">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Escudo_de_la_UNLaR.svg/150px-Escudo_de_la_UNLaR.svg.png" alt="UNLaR">
-                </figure>
-              </a>
-            </div>
+          <div class="tile is-child notification has-text-centered is-info">
+            <a href="https://www.unlar.edu.ar/">
+              <div class="content">
+                Universidad Nacional de La Rioja
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="https://www.uns.edu.ar/">
-                <figure class="image is-96x96">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/EmblemaUNS.jpg/200px-EmblemaUNS.jpg" alt="UNS">
-                </figure>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="http://www.uncuyo.edu.ar/">
-                <figure class="image is-96x96">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Escudo_uncuyo.jpg/150px-Escudo_uncuyo.jpg" alt="UNC">
-                </figure>
-              </a>
-            </div>
+          <div class="tile is-child notification has-text-centered is-success">
+            <a href="https://www.uns.edu.ar/">
+              <div class="content">
+                Universidad Nacional del Sur
+              </div>
+            </a>
           </div>
         </div>
 
@@ -210,74 +216,76 @@
       <div class="tile">
 
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="http://www.um.edu.ar/es/">
-                <figure class="image is-96x96">
-                  <img src="http://www.um.edu.ar/es/templates/umendoza/images/marca.png" alt="UM">
-                </figure>
-              </a>
-            </div>
+          <div class="tile is-child notification has-text-centered is-warning">
+            <a href="http://www.uncuyo.edu.ar/">
+              <div class="content">
+                Universidad Nacional de Cuyo
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="https://www.unc.edu.ar/">
-                <figure class="image is-96x96">
-                  <img src="http://www.soldepiedra.com.ar/wp-content/uploads/2016/11/universidad-nacional-de-cordoba-inscripcion.2017.jpg" alt="UNC">
-                </figure>
-              </a>
-            </div>
+          <div class="tile is-child notification has-text-centered is-danger">
+            <a href="http://www.um.edu.ar/es/">
+              <div class="content">
+                Universidad de Mendoza
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="https://www.parquesnacionales.gob.ar/">
-                <figure class="image is-96x96">
-                  <img src="https://talampaya-apn.webnode.com/_files/200000029-d74bdd940b/LOGO%20APN%202014%20GIF.gif" alt="parquesnacionales">
-                </figure>
-              </a>
-            </div>
+          <div class="tile is-child notification has-text-centered is-primary">
+            <a href="https://www.unc.edu.ar/">
+              <div class="content">
+                Universidad Nacional de Córdoba
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="http://www.ambiente.mendoza.gov.ar/">
-                <figure class="image is-96x96">
-                  <img src="http://www.wp1.mendoza.gov.ar/wp-content/uploads/sites/44/2017/09/gobierno-de-mendoza-fnd-mrd-e1505761656198.png" alt="Mendoza gov">
-                </figure>
-              </a>
-            </div>
+          <div class="tile is-child notification has-text-centered is-link">
+            <a href="https://www.parquesnacionales.gob.ar/">
+              <div class="content">
+                Administración de Parques Nacionales
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tile">
+
+        <div class="tile is-parent">
+          <div class="tile is-child notification has-text-centered is-info">
+            <a href="http://www.ambiente.mendoza.gov.ar/">
+              <div class="content">
+                Dirección de Recursos Naturales Renovables de Mendoza
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="http://www.unpa.edu.ar/">
-                <figure class="image is-64x64">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Logo_oficial_UNPA.jpg/200px-Logo_oficial_UNPA.jpg" alt="UNPA">
-                </figure>
-              </a>
-            </div>
+          <div class="tile is-child notification has-text-centered is-success">
+            <a href="http://www.unpa.edu.ar/">
+              <div class="content">
+                Universidad de la Patagonia Austral
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="https://inta.gob.ar/">
-                <figure class="image is-96x96">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8TJJlck6v11UXOkNKxisahWZq9BDYiW8baeCP6h3LOXZqq7BC" alt="INTA">
-                </figure>
-              </a>
-            </div>
+          <div class="tile is-child notification has-text-centered is-warning">
+            <a href="https://inta.gob.ar/">
+              <div class="content">
+                Instituto Nacional de Tecnología Agropecuaria.
+              </div>
+            </a>
           </div>
         </div>
 
@@ -287,92 +295,60 @@
 
   </section>
 
+  <hr style="width: 70%; margin:auto">
+
   <section class="section">
-    <div class="tile is-ancestor is-vertical box">
+    <div class="tile is-ancestor is-vertical">
 
       <div class="tile">
 
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="http://unal.edu.co/">
-                <figure class="image is-96x96">
-                  <img src="http://cortinasypersianascyf.com/wp-content/uploads/2015/07/logo-universidad-nacional-de-colombia.png" alt="UNAL">
-                </figure>
-              </a>
-            </div>
+          <div class="tile is-child notification has-text-centered is-danger">
+            <a href="http://unal.edu.co/">
+              <div class="content">
+                Universidad Nacional de Colombia
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="http://www.uelbosque.edu.co/">
-                <figure class="image is-96x96">
-                  <img src="http://www.uelbosque.edu.co/sites/default/files/logo.png" alt="UELBOSQUE">
-                </figure>
-              </a>
-            </div>
+          <div class="tile is-child notification has-text-centered is-primary">
+            <a href="http://www.uelbosque.edu.co/">
+              <div class="content">
+                Universidad El Bosque
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="https://www.upo.es/portal/impe/web/portada">
-                <figure class="image is-96x96">
-                  <img src="https://www.vectorlogo.es/wp-content/uploads/2014/12/logo-vector-universidad-pablo-olavide-vertical.jpg" alt="UPO">
-                </figure>
-              </a>
-            </div>
+          <div class="tile is-child notification has-text-centered is-link">
+            <a href="https://www.upo.es/portal/impe/web/portada">
+              <div class="content">
+                Universidad Pablo de Olavide
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="http://www.unipv.eu/site/home.html">
-                <figure class="image is-96x96">
-                  <img src="http://www.unipv.eu/contents/instance1/images/logo_header.png" alt="UNIPV">
-                </figure>
-              </a>
-            </div>
+          <div class="tile is-child notification has-text-centered is-info">
+            <a href="http://www.unipv.eu/site/home.html">
+              <div class="content">
+                UniversitádegliStudi di Pavìa
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="http://www.upm.es/">
-                <figure class="image is-96x96">
-                  <img src="http://www.upm.es/themes/comun/logos/nuevo.png" alt="UPM">
-                </figure>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="http://www.uam.mx/">
-                <figure class="image is-96x96">
-                  <img src="http://www.uam.mx/encabezado_75-17c.png" alt="UAM">
-                </figure>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
-              <a href="http://uspt.edu.ar/">
-                <figure class="image is-96x96">
-                  <img src="http://uspt.edu.ar/wp-content/uploads/2015/07/head-uspt.png" alt="USPT">
-                </figure>
-              </a>
-            </div>
+          <div class="tile is-child notification has-text-centered is-success">
+            <a href="http://www.upm.es/">
+              <div class="content">
+                Universidad Politécnica de Madrid
+              </div>
+            </a>
           </div>
         </div>
 
@@ -381,81 +357,93 @@
       <div class="tile">
 
         <div class="tile is-parent">
-          <div class="tile is-child">
+          <div class="tile is-child notification has-text-centered is-warning">
+            <a href="http://www.uam.mx/">
+              <div class="content">
+                Universidad Autónoma Metropolitana
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="tile is-parent">
+          <div class="tile is-child notification has-text-centered is-danger">
             <div class="content">
+              <a href="http://www5.usp.br/">
+                  Universidad de São Paulo
+              </div>
+            </a>
+            </div>
+          </div>
+
+          <div class="tile is-parent">
+            <div class="tile is-child notification has-text-centered is-primary">
               <a href="http://umanizales.edu.co/">
-                <figure class="image is-96x96">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Universidad-de-manizales-logo.jpg/250px-Universidad-de-manizales-logo.jpg" alt="umanizales">
-                </figure>
+                <div class="content">
+                  Universidad de Manizales
+                </div>
               </a>
             </div>
           </div>
-        </div>
 
-        <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
+          <div class="tile is-parent">
+            <div class="tile is-child notification has-text-centered is-link">
               <a href="http://www.us.es/">
-                <figure class="image is-96x96">
-                  <img src="https://www.vectorlogo.es/wp-content/uploads/2014/12/logo-vector-universidad-sevilla.jpg" alt="US">
-                </figure>
+                <div class="content">
+                  Universidad de Sevilla
+                </div>
               </a>
             </div>
           </div>
+
         </div>
 
-        <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
+        <div class="tile">
+
+          <div class="tile is-parent">
+            <div class="tile is-child notification has-text-centered is-info">
               <a href="http://www.unipd.it/">
-                <figure class="image is-96x96">
-                  <img src="http://www.unipd.it/sites/unipd.it/themes/unipd_2017/img/logo-UNIPD-white.png" alt="UNIPD">
-                </figure>
+                <div class="content">
+                  UniversitádegliStudi di Padova
+                </div>
               </a>
             </div>
           </div>
-        </div>
 
-        <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
+          <div class="tile is-parent">
+            <div class="tile is-child notification has-text-centered is-success">
               <a href="https://www.polimi.it/">
-                <figure class="image is-96x96">
-                  <img src="https://www.polimi.it/fileadmin/templates/assets/images/logoxpolimi_04_025.png" alt="polimi">
-                </figure>
+                <div class="content">
+                  Politécnico de Milán
+                </div>
               </a>
             </div>
           </div>
-        </div>
 
-        <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
+          <div class="tile is-parent">
+            <div class="tile is-child notification has-text-centered is-warning">
               <a href="http://www.uam.es/UAM/Home.htm?language=es">
-                <figure class="image is-96x96">
-                  <img src="http://www.uam.es/UAM/imagen/1233310437165/LOGO_UAM.png?blobheadername1=Content-Disposition&blobheadervalue1=attachment;%20filename=LOGO_UAM.png" alt="UAM">
-                </figure>
+                <div class="content">
+                  Universidad Autónoma de Madrid
+                </div>
               </a>
             </div>
           </div>
-        </div>
 
-        <div class="tile is-parent">
-          <div class="tile is-child">
-            <div class="content">
+          <div class="tile is-parent">
+            <div class="tile is-child notification has-text-centered is-danger">
               <a href="http://www.udg.mx/">
-                <figure class="image is-96x96">
-                  <img src="http://www.udg.mx/sites/default/files/escudo_2.png" alt="UDG">
-                </figure>
+                <div class="content">
+                  Universidad de Guadalajara
+                </div>
               </a>
             </div>
           </div>
+
         </div>
 
 
       </div>
-
-    </div>
 
   </section>
 

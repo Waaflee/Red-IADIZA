@@ -13,7 +13,7 @@ export default class Card {
 
   render() {
     return `<div class="column">
-                    <div class="card" data-aos="fade-up">
+                    <div class="card" data-aos="zoom-in">
                     <div class="card-image">
                     <figure class="image is-4by3">
                     <img src=${this.photoUrl} alt="avatar">

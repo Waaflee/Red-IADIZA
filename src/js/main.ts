@@ -10,5 +10,7 @@ export default () => {
       container.innerHTML += n.render();
     });
 
+    let instituciones = document.getElementsByClassName('tile notification is-child has-text-centered');
+
   }
 }
