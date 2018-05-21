@@ -10,3 +10,4 @@ sed -i -e s:=\"\/:=\".\/:g *.js
 cd ..
 git add -A
 git commit -a -m'Processed build for github pages publishing'
+git push
